@@ -1,0 +1,168 @@
+{
+  "orders": [
+    {
+      "id": "ORD-001",
+      "client": "Metro Kirana",
+      "gstin": "27AAFCM1234K1Z5",
+      "amount": 42000,
+      "status": "delivered",
+      "date": "2026-05-20",
+      "items": []
+    },
+    {
+      "id": "ORD-002",
+      "client": "City Mart",
+      "gstin": "27AAACC4567L1Z8",
+      "amount": 18500,
+      "status": "pending",
+      "date": "2026-05-21",
+      "items": []
+    },
+    {
+      "id": "ORD-003",
+      "client": "QuickShop",
+      "gstin": "",
+      "amount": 31000,
+      "status": "processing",
+      "date": "2026-05-22",
+      "items": []
+    },
+    {
+      "id": "ORD-004",
+      "client": "Westside Foods",
+      "gstin": "",
+      "amount": 9200,
+      "status": "delivered",
+      "date": "2026-05-19",
+      "items": []
+    },
+    {
+      "id": "ORD-005",
+      "client": "Harbor General",
+      "gstin": "",
+      "amount": 56000,
+      "status": "delivered",
+      "date": "2026-05-18",
+      "items": []
+    }
+  ],
+  "cashCollections": [
+    {
+      "id": "CASH-001",
+      "client": "Metro Kirana",
+      "amount": 38000,
+      "date": "2026-05-20",
+      "verified": true
+    },
+    {
+      "id": "CASH-002",
+      "client": "Harbor General",
+      "amount": 56000,
+      "date": "2026-05-21",
+      "verified": true
+    },
+    {
+      "id": "CASH-003",
+      "client": "QuickShop",
+      "amount": 12000,
+      "date": "2026-05-22",
+      "verified": false
+    }
+  ],
+  "chequeCollections": [
+    {
+      "id": "CHQ-001",
+      "client": "City Mart",
+      "amount": 45000,
+      "date": "2026-05-19",
+      "dueDate": "2026-06-01",
+      "status": "pending"
+    },
+    {
+      "id": "CHQ-002",
+      "client": "Westside Foods",
+      "amount": 22000,
+      "date": "2026-05-20",
+      "dueDate": "2026-05-30",
+      "status": "cleared"
+    }
+  ],
+  "damages": [
+    {
+      "id": "DMG-001",
+      "client": "QuickShop",
+      "product": "Glass Bottles x12",
+      "value": 1440,
+      "date": "2026-05-21",
+      "resolved": false
+    },
+    {
+      "id": "DMG-002",
+      "client": "Metro Kirana",
+      "product": "Ceramic Mugs x6",
+      "value": 2100,
+      "date": "2026-05-20",
+      "resolved": true
+    }
+  ],
+  "returns": [
+    {
+      "id": "RET-001",
+      "client": "City Mart",
+      "product": "Premium Coffee x24",
+      "value": 4800,
+      "date": "2026-05-22",
+      "reason": "Wrong item"
+    }
+  ],
+  "gpsLogs": [
+    {
+      "time": "08:15",
+      "location": "Depot",
+      "lat": 19.076,
+      "lng": 72.877,
+      "activity": "Start"
+    },
+    {
+      "time": "09:30",
+      "location": "Metro Kirana",
+      "lat": 19.082,
+      "lng": 72.885,
+      "activity": "Delivery"
+    },
+    {
+      "time": "11:00",
+      "location": "City Mart",
+      "lat": 19.09,
+      "lng": 72.868,
+      "activity": "Collection"
+    },
+    {
+      "time": "13:20",
+      "location": "QuickShop",
+      "lat": 19.07,
+      "lng": 72.88,
+      "activity": "Delivery"
+    },
+    {
+      "time": "15:45",
+      "location": "Harbor General",
+      "lat": 19.095,
+      "lng": 72.86,
+      "activity": "Delivery"
+    },
+    {
+      "time": "17:00",
+      "location": "Depot",
+      "lat": 19.076,
+      "lng": 72.877,
+      "activity": "End"
+    }
+  ],
+  "targets": {
+    "monthly": 800000,
+    "collected": 524000,
+    "ordersTarget": 60,
+    "ordersCount": 48
+  }
+}
